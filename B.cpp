@@ -8,7 +8,7 @@ int main() {
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(nullptr);
 
-    int f;
+    double f;
     std::cin>>f;
 
     std::cout<<f_to_c(f)<<"\n";
