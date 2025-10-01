@@ -3,12 +3,17 @@
 
 using namespace std;
 
-int main() {
-    float alpha_f = 0.5f;
-    float beta_f = 0.3f;
+void fast_io() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+}
 
-    double alpha_d = 0.5;
-    double beta_d = 0.3;
+int main() {
+    fast_io();
+    float alpha_f,beta_f;
+    cin>>alpha_f>>beta_f;
+    double alpha_d,beta_d;
+    cin>>alpha_d>>beta_d;
 
     float Z1f = (sin(alpha_f) + cos(2 * beta_f - alpha_f)) / (cos(alpha_f) - sin(2 * beta_f - alpha_f));
     float Z2f = (1 + sin(2 * beta_f)) / cos(2 * beta_f);
